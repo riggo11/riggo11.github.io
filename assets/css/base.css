@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #a986f0;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+    --header-height: 72px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.content-section {
+    width: 1200px;
+    max-width: 100%;
+    padding-top: 120px;
+    padding-bottom: 112px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.content-title {
+    display: flex;
+    justify-content: center;
+}
+
+.content-title h3,
+.content-title i {
+    font-size: 64px;
+    color: var(--text-color);
+    user-select: none;
+}
+.content-title h3 {
+    margin: 0 40px;
+}
